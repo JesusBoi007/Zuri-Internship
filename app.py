@@ -14,7 +14,7 @@ def get_info():
     current_day = datetime.datetime.now(pytz.utc).strftime('%A')
     current_time_utc = datetime.datetime.now(pytz.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
 
-    github_url_file = " "
+    github_url_file = "https://github.com/JesusBoi007/Zuri-Internship/blob/main/app.py"
     github_repo_url = "https://github.com/JesusBoi007/Zuri-Internship"
 
     response_data = {
